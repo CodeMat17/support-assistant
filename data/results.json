@@ -1,1 +1,477 @@
-{}
+{
+  "deposit": {
+    "reply": {
+      "segments": [
+        {
+          "text": "You confirm your booking by paying ",
+          "citations": []
+        },
+        {
+          "text": "a 30% deposit",
+          "citations": [
+            {
+              "source": "booking-deposit",
+              "start": 0,
+              "end": 1,
+              "cited_text": "A 30% deposit confirms your booking."
+            }
+          ]
+        },
+        {
+          "text": ", and ",
+          "citations": []
+        },
+        {
+          "text": "the remaining balance is due 45 days before departure",
+          "citations": [
+            {
+              "source": "booking-deposit",
+              "start": 1,
+              "end": 2,
+              "cited_text": "The remaining balance is due 45 days before departure."
+            }
+          ]
+        },
+        {
+          "text": ". If you're booking closer to your trip, ",
+          "citations": []
+        },
+        {
+          "text": "within 45 days of departure, the full amount is due at booking",
+          "citations": [
+            {
+              "source": "booking-deposit",
+              "start": 2,
+              "end": 3,
+              "cited_text": "If you book within 45 days of departure, the full amount is due at booking."
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "citations": []
+        }
+      ],
+      "handoff": null
+    },
+    "retrieved": [
+      {
+        "id": "booking-deposit",
+        "score": 4.76
+      },
+      {
+        "id": "cancel-date-change",
+        "score": 3.47
+      },
+      {
+        "id": "booking-methods",
+        "score": 2.87
+      },
+      {
+        "id": "tours-children",
+        "score": 2.3
+      },
+      {
+        "id": "travel-eta",
+        "score": 2.1
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:22:47.701Z"
+  },
+  "cancel": {
+    "reply": {
+      "segments": [
+        {
+          "text": "Yes, you'd get some money back: since 40 days is in the 30 to 59 day window, ",
+          "citations": []
+        },
+        {
+          "text": "cancellations made 30 to 59 days before departure receive a refund of 50% of the total tour price.",
+          "citations": [
+            {
+              "source": "cancel-by-guest",
+              "start": 1,
+              "end": 2,
+              "cited_text": "Cancellations made 30 to 59 days before departure receive a refund of 50% of the total tour price."
+            }
+          ]
+        },
+        {
+          "text": " For comparison, ",
+          "citations": []
+        },
+        {
+          "text": "cancellations made 60 or more days before departure are refunded in full, minus a USD 150 admin fee per booking",
+          "citations": [
+            {
+              "source": "cancel-by-guest",
+              "start": 0,
+              "end": 1,
+              "cited_text": "Cancellations made 60 or more days before departure are refunded in full, minus a USD 150 admin fee per booking."
+            }
+          ]
+        },
+        {
+          "text": ", while ",
+          "citations": []
+        },
+        {
+          "text": "cancellations made less than 30 days before departure are not refunded.",
+          "citations": [
+            {
+              "source": "cancel-by-guest",
+              "start": 2,
+              "end": 3,
+              "cited_text": "Cancellations made less than 30 days before departure are not refunded."
+            }
+          ]
+        }
+      ],
+      "handoff": null
+    },
+    "retrieved": [
+      {
+        "id": "cancel-by-us",
+        "score": 5.49
+      },
+      {
+        "id": "cancel-by-guest",
+        "score": 4.26
+      },
+      {
+        "id": "travel-health",
+        "score": 4.01
+      },
+      {
+        "id": "tours-single",
+        "score": 3.11
+      },
+      {
+        "id": "tours-groups",
+        "score": 2.93
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:22:51.835Z"
+  },
+  "family": {
+    "reply": {
+      "segments": [
+        {
+          "text": "The 3-day Maasai Mara Classic would come to USD 3,250 for your family. ",
+          "citations": []
+        },
+        {
+          "text": "The Maasai Mara Classic, 3 days, is USD 1,250",
+          "citations": [
+            {
+              "source": "tours-price-list",
+              "start": 0,
+              "end": 1,
+              "cited_text": "Maasai Mara Classic, 3 days: USD 1,250."
+            }
+          ]
+        },
+        {
+          "text": " per adult sharing a room, and ",
+          "citations": []
+        },
+        {
+          "text": "children aged 3 to 11 pay 60% of the adult price on all multi-day safaris",
+          "citations": [
+            {
+              "source": "tours-children",
+              "start": 0,
+              "end": 1,
+              "cited_text": "Children aged 3 to 11 pay 60% of the adult price on all multi-day safaris."
+            }
+          ]
+        },
+        {
+          "text": ", so your 7-year-old would pay USD 750. That makes USD 1,250 × 2 + USD 750 = USD 3,250.",
+          "citations": []
+        }
+      ],
+      "handoff": null
+    },
+    "retrieved": [
+      {
+        "id": "included-optional",
+        "score": 5.38
+      },
+      {
+        "id": "packing-weight",
+        "score": 4.9
+      },
+      {
+        "id": "tours-price-list",
+        "score": 4.63
+      },
+      {
+        "id": "tours-children",
+        "score": 4.46
+      },
+      {
+        "id": "tours-groups",
+        "score": 3.21
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:22:56.012Z"
+  },
+  "balloon": {
+    "reply": {
+      "segments": [
+        {
+          "text": "No, the hot air balloon isn't included, because ",
+          "citations": []
+        },
+        {
+          "text": "optional activities",
+          "citations": [
+            {
+              "source": "included-no",
+              "start": 0,
+              "end": 1,
+              "cited_text": "International flights, visas, travel insurance, tips for guides and camp staff, alcoholic drinks, and optional activities."
+            }
+          ]
+        },
+        {
+          "text": " are extra. You can add a ",
+          "citations": []
+        },
+        {
+          "text": "hot air balloon safari over the Maasai Mara for USD 480 per person, including a bush breakfast",
+          "citations": [
+            {
+              "source": "included-optional",
+              "start": 0,
+              "end": 1,
+              "cited_text": "Hot air balloon safari over the Maasai Mara: USD 480 per person, including a bush breakfast."
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "citations": []
+        },
+        {
+          "text": "It can be added when you book or with your guide on the day, subject to availability.",
+          "citations": [
+            {
+              "source": "included-optional",
+              "start": 2,
+              "end": 3,
+              "cited_text": "Both can be added when you book or with your guide on the day, subject to availability."
+            }
+          ]
+        }
+      ],
+      "handoff": null
+    },
+    "retrieved": [
+      {
+        "id": "included-optional",
+        "score": 14.54
+      },
+      {
+        "id": "packing-weight",
+        "score": 4.9
+      },
+      {
+        "id": "included-yes",
+        "score": 4.24
+      },
+      {
+        "id": "tours-price-list",
+        "score": 2.91
+      },
+      {
+        "id": "included-no",
+        "score": 2.82
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:22:59.530Z"
+  },
+  "mpesa": {
+    "reply": {
+      "segments": [
+        {
+          "text": "Yes. ",
+          "citations": []
+        },
+        {
+          "text": "If you're paying in Kenyan shillings, you can pay by M-Pesa to our Paybill number, which is shown on your invoice.",
+          "citations": [
+            {
+              "source": "booking-methods",
+              "start": 1,
+              "end": 2,
+              "cited_text": "Guests paying in Kenyan shillings can also pay by M-Pesa to our Paybill number, which is shown on your invoice."
+            }
+          ]
+        }
+      ],
+      "handoff": null
+    },
+    "retrieved": [
+      {
+        "id": "booking-methods",
+        "score": 6.77
+      },
+      {
+        "id": "tours-children",
+        "score": 2.3
+      },
+      {
+        "id": "tours-single",
+        "score": 2.09
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:23:02.122Z"
+  },
+  "change": {
+    "reply": {
+      "segments": [
+        {
+          "text": "Yes, the reservations team can do that for you. ",
+          "citations": []
+        },
+        {
+          "text": "You can move your tour to new dates once, free of charge, if you ask at least 45 days before departure.",
+          "citations": [
+            {
+              "source": "cancel-date-change",
+              "start": 0,
+              "end": 1,
+              "cited_text": "You can move your tour to new dates once, free of charge, if you ask at least 45 days before departure."
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "citations": []
+        },
+        {
+          "text": "Later date changes cost USD 100 per booking and depend on availability.",
+          "citations": [
+            {
+              "source": "cancel-date-change",
+              "start": 1,
+              "end": 2,
+              "cited_text": "Later date changes cost USD 100 per booking and depend on availability."
+            }
+          ]
+        },
+        {
+          "text": " I'm passing your request and booking reference KT-2291 to them now so they can check March availability and confirm whether there's a fee.",
+          "citations": []
+        }
+      ],
+      "handoff": {
+        "reason": "needs_account_access",
+        "summary": "Customer wants to move booking KT-2291 to March (no specific dates given). I've explained the policy: one free date change if requested 45+ days before departure, otherwise USD 100 and subject to availability."
+      }
+    },
+    "retrieved": [
+      {
+        "id": "booking-confirmation",
+        "score": 7.8
+      },
+      {
+        "id": "cancel-date-change",
+        "score": 3.93
+      },
+      {
+        "id": "booking-deposit",
+        "score": 1.96
+      },
+      {
+        "id": "booking-methods",
+        "score": 1.15
+      },
+      {
+        "id": "tours-groups",
+        "score": 1.1
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:23:06.562Z"
+  },
+  "pets": {
+    "reply": {
+      "segments": [
+        {
+          "text": "I'm sorry, but our help centre doesn't say whether dogs or other pets can come on safari, so I can't confirm either way. I'm passing your question to our support team so they can give you a definite answer.",
+          "citations": []
+        }
+      ],
+      "handoff": {
+        "reason": "not_in_docs",
+        "summary": "The customer wants to know if they can bring their dog on safari. The help centre doesn't cover pets, so I told them I can't confirm and that the team will follow up."
+      }
+    },
+    "retrieved": [
+      {
+        "id": "included-yes",
+        "score": 1.82
+      },
+      {
+        "id": "tours-children",
+        "score": 1.74
+      },
+      {
+        "id": "packing-weight",
+        "score": 1.34
+      },
+      {
+        "id": "included-optional",
+        "score": 1.28
+      },
+      {
+        "id": "tours-groups",
+        "score": 1.25
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:23:10.721Z"
+  },
+  "weather": {
+    "reply": {
+      "segments": [
+        {
+          "text": "I'm sorry, our help centre doesn't have weather information, so I can't tell you what the Maasai Mara will be like next week. I'll pass you to a member of our team who can help.",
+          "citations": []
+        }
+      ],
+      "handoff": {
+        "reason": "not_in_docs",
+        "summary": "Customer is asking about the weather forecast for the Maasai Mara next week. The help centre has no weather information, so nothing has been answered yet."
+      }
+    },
+    "retrieved": [
+      {
+        "id": "included-optional",
+        "score": 4.1
+      },
+      {
+        "id": "packing-weight",
+        "score": 3.55
+      },
+      {
+        "id": "tours-price-list",
+        "score": 2.91
+      },
+      {
+        "id": "travel-eta",
+        "score": 2.6
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "answered_at": "2026-10-18T16:23:14.080Z"
+  }
+}
