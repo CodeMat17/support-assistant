@@ -66,7 +66,7 @@ export default function Home() {
           <p className="mt-6 flex items-start gap-2 text-sm text-muted-foreground">
             <ShieldCheck className="mt-0.5 size-4 shrink-0 text-primary" />
             {Object.keys(results).length > 0
-              ? "Demo mode: no AI call is made in your browser. Replies are saved output from running the real assistant on these questions."
+              ? "Saved output from a real AI run"
               : "Demo mode: no AI call is made in your browser. Showing reference answers until the saved model run is added."}
           </p>
         </section>
